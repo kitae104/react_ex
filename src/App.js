@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import ImportComponent from './ImportComponent';
+import SpreadOperator from './basic/SpreadOperator';
 
 function App() {
   return (
-    <div>
-      <h1>Start React 200</h1>
+    <>
+      <h1>인하공전 컴시과 23'</h1>
       <p>CSS 적용하기</p>
-      <ImportComponent />
-    </div>
+      <p>This is my first React compoment</p>
+      <SpreadOperator />
+    </>
   );
 }
 
